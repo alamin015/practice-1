@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*--------------------------------------------------
+common  css   
+---------------------------------------------------*/
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+.btn {
+  height: 64px;
+  padding: 0 35px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffff;
+  border: none;
+  background: #fd6e0a;
+  border-radius: 5px;
+}
+.contact,.resume,.about,.what_ido,.card {
+  padding: 0 200px;
+}
+.title {
+  color: #181818;
+  font-weight: 700;
+  text-align: center;
+  font-size: 35px;
+}
+
+.description {
+  color: #757575;
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+/*--------------------------------------------------
+header css   
+---------------------------------------------------*/
+header {
+  padding: 0px 200px;
+  background: #fff8f3;
+  background-image: url("./img/header_bg.png"), url("./img/developer.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, left;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+nav > a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 45px;
+  color: #181818;
+}
+nav > a span {
+  color: #fd6e0a;
+}
+
+nav .menu ul {
+  display: flex;
+  align-items: center;
+}
+.menu ul li {
+  margin-left: 50px;
+}
+
+.menu ul li a {
+  color: #474747;
+  font-size: 20px;
+}
+/*--------------------------------------------------
+Banner css   
+---------------------------------------------------*/
+.banner_all_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner_text_content h4 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner_text_content h2 {
+  color: #181818;
+  font-size: 60px;
+  font-weight: 700;
+}
+.banner_text_content p {
+  color: #757575;
+  font-size: 18px;
+  margin: 20px 0px 30px 0;
+}
+.banner_btn .btn:last-child {
+  background: transparent;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  margin-left: 30px;
+}
+
+/*--------------------------------------------------
+About css   
+---------------------------------------------------*/
+.about_content {
+  padding: 150px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+
+.about_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about_info .info_item {
+  text-align: center;
+}
+.info_item p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+}
+.info_item h4 {
+  color: #474747;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*--------------------------------------------------
+What to do css   
+---------------------------------------------------*/
+.what_ido_content {
+  padding: 0 130px;
+}
+
+/*--------------------------------------------------
+Card section css   
+---------------------------------------------------*/
+.card {
+  margin-top: 50px;
+}
+.card_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.card_item {
+  padding: 33px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.card_item img {
+  
+}
+.card_item .title {
+  margin: 30px 0 20px 0;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.card_item .description {
+  color: #757575;
+  font-size: 16px;
+  text-align: left;
+}
+/*--------------------------------------------------
+Resume section css   
+---------------------------------------------------*/
+.resume{
+
+}
+.resume .title{
+    margin: 113px 0;
+}
+.resume_content{
+    display: flex;
+    gap: 24px;
+    /* align-items: center; */
+}
+.resume_content .education h2,.resume_content .experience h2{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.education_flex{}
+.education_flex .flex_item h3,.experience_flex .flex_item h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.education_flex .flex_item .small_title,.experience_flex .flex_item .small_title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.education_flex .flex_item p,.experience_flex .flex_item p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.flex_item hr{
+    height: 0;
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.resume_btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*--------------------------------------------------
+Contact section css   
+---------------------------------------------------*/
+.contact{
+    margin-top: 130px;
+    background: #fff8f3;
+}
+.contact_content{
+    display: flex;
+    gap: 117px;
+    padding: 30px 0;
+}
+.connect,.message{
+    flex: 1;
+}
+.contact_title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.connect p{
+    color: #474747;
+    margin-bottom: 30px;
+}
+.social_icon a{
+    margin-right: 15px;
+}
+.social_icon a:last-child{
+    margin-right: 0;
+}
+.message form input[type="text"],.message form input[type="email"]{
+    height: 64px;
+}
+.message form input[type="text"],.message form input[type="email"],.message form textarea{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 30px;
+}
+input::placeholder,textarea::placeholder{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/*--------------------------------------------------
+Happy End
+---------------------------------------------------*/
