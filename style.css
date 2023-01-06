@@ -48,7 +48,7 @@ header {
   background: #fff8f3;
   background-image: url("./img/header_bg.png"), url("./img/developer.png");
   background-repeat: no-repeat;
-  background-position: right bottom, left;
+  background-position: right bottom, 50px 50px;
 }
 nav {
   display: flex;
@@ -108,7 +108,10 @@ Banner css
   color: #fd6e0a;
   margin-left: 30px;
 }
-
+.banner_img {
+  /* margin-top: 500px; */
+  margin-bottom: -5px;
+}
 /*--------------------------------------------------
 About css   
 ---------------------------------------------------*/
